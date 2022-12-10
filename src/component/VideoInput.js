@@ -31,10 +31,10 @@ export default function VideoInput(props) {
       method: "POST",
       body: formData,
     }).then((res) => res.json());
-    if (res.prediction === "True") {
+    if (res.prediction === "1") {
       setPredict("True");
     }
-    if (res.prediction === "False") {
+    if (res.prediction === "0") {
       setPredict("False");
     }
     // console.log(res)
