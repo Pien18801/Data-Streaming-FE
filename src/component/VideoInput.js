@@ -91,7 +91,7 @@ export default function VideoInput(props) {
               <button className="btnWhite">Choose Video</button>
             </div>
 
-            <button className="btn" onClick={uploadVideo}><span className='btn_name'> Upload </span></button>
+            <button className="btn" onClick={uploadVideo}><span className='btn_name'> Predict </span></button>
           </div>
 
 
